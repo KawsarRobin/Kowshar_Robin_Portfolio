@@ -6,7 +6,12 @@ const Navagation = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid container">
-        <a className="navbar-brand" href="#">
+        <a
+          className="navbar-brand"
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/kawsar-robin/"
+        >
           <img src={logo} alt="" />
         </a>
         <button

@@ -135,7 +135,7 @@ const Footer = () => {
                   type="submit"
                   value="Send"
                 >
-                  <i class="fas fa-paper-plane"></i> Send Message
+                  <i className="fas fa-paper-plane"></i> Send Message
                 </button>
               </form>
             </div>

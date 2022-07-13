@@ -25,12 +25,12 @@ const Project = ({ project }) => {
           <p>{project.date}</p>
           <ul className="my-item">
             {project.des.map((item) => (
-              <li>{item}</li>
+              <li key={item}>{item}</li>
             ))}
           </ul>
           <ul className="tags">
             {project.Technology.map((item) => (
-              <li>{item}</li>
+              <li key={item}>{item}</li>
             ))}
           </ul>
           <div className="project-link">

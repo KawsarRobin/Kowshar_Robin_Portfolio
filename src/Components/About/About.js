@@ -34,31 +34,31 @@ const About = () => {
               <i
                 data-toggle="tooltip"
                 title="Travelling!"
-                class="fas fa-plane  mx-2"
+                className="fas fa-plane  mx-2"
                 data-placement="top"
               ></i>
               <i
                 data-toggle="tooltip"
                 title="Coding!"
-                class="fas fa-laptop-code mx-2"
+                className="fas fa-laptop-code mx-2"
                 data-placement="top"
               ></i>
               <i
                 data-toggle="tooltip"
                 title="Gaming!"
-                class="fas fa-gamepad mx-2"
+                className="fas fa-gamepad mx-2"
                 data-placement="top"
               ></i>
               <i
                 data-toggle="tooltip"
                 title="Music!"
-                class="fas fa-music mx-2"
+                className="fas fa-music mx-2"
                 data-placement="top"
               ></i>
               <i
                 data-toggle="tooltip"
                 title="Riding!"
-                class="fas fa-bicycle mx-2"
+                className="fas fa-bicycle mx-2"
                 data-placement="top"
               ></i>
             </div>
