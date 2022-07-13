@@ -16,17 +16,17 @@ const About = () => {
             Hi_
           </h2>
           <p className="section__description pe-lg-5">
-            I am Robin, a Junior <b>MERN</b> Stack Web developer able to build a
-            Web presence from the ground up - from concept, navigation, layout
-            and programming to UX. Experienced with a demonstrated history of
-            working in the computer software industry. Skilled in Front End
-            technologies such as Html5 , Css3 , JavaScript , React , BootStrap,
-            Material UI, Tailwind CSS, Sass, and Back End technologies such as
-            Node.JS, Express JS and MongoDb. Learning a variety of scripting
-            languages and multimedia tools is one of my strengths. I am also a
-            hard worker and team player. I am looking for a challenging
-            opportunity that will enable me to use my skills and abilities to
-            achieve a challenging goal..
+            I am Kowshar Robin, a Junior <b>MERN</b> Stack Web developer able to
+            build a Web presence from the ground up - from concept, navigation,
+            layout and programming to UX. Experienced with a demonstrated
+            history of working in the computer software industry. Skilled in
+            Front End technologies such as Html5 , Css3 , JavaScript , React ,
+            BootStrap, Material UI, Tailwind CSS, Sass, and Back End
+            technologies such as Node.JS, Express JS and MongoDb. Learning a
+            variety of scripting languages and multimedia tools is one of my
+            strengths. I am also a hard worker and team player. I am looking for
+            a challenging opportunity that will enable me to use my skills and
+            abilities to achieve a challenging goal.
           </p>
           <div>
             <h3>Personal Obsession</h3>
