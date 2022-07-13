@@ -38,7 +38,7 @@ const Footer = () => {
                   'Get in touch now 🤗',
                   "Let's have a cup of tea ☕️",
                 ]}
-                loop={5}
+                loop={10}
                 cursor
                 cursorStyle="_"
                 typeSpeed={50}
@@ -96,7 +96,21 @@ const Footer = () => {
                     placeholder="Your e-mail"
                     required
                     name="email"
-                    id="validationCustom02"
+                    id="validationCustom03"
+                  />
+                  <span className="form-validation"></span>
+                  <span className="form-invalid-icon">
+                    <i className="mdi mdi-close" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <div className="form-group">
+                  <input
+                    className="form-field js-field-email"
+                    type="text"
+                    placeholder="Subject"
+                    required
+                    name="subject"
+                    id="validationCustom03"
                   />
                   <span className="form-validation"></span>
                   <span className="form-invalid-icon">
@@ -109,7 +123,7 @@ const Footer = () => {
                     placeholder="Type the message here"
                     required
                     name="message"
-                    id="validationCustom03"
+                    id="validationCustom04"
                   ></textarea>
                   <span className="form-validation"></span>
                   <span className="form-invalid-icon">
@@ -129,7 +143,11 @@ const Footer = () => {
           <div className="contacts__social col-md-3 pt-4 pt-md-0">
             <ul>
               <li>
-                <a href="https://github.com/KawsarRobin" target="_blank">
+                <a
+                  href="https://github.com/KawsarRobin"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fa fa-github"></i> GitHub
                 </a>
               </li>
@@ -137,6 +155,7 @@ const Footer = () => {
                 <a
                   href="https://www.linkedin.com/in/kawsar-robin/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-linkedin-square"></i> Linkedin
                 </a>
@@ -145,6 +164,7 @@ const Footer = () => {
                 <a
                   href="https://www.facebook.com/KawsarRobinn/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fa fa-facebook-square"></i> Facebook
                 </a>
@@ -153,6 +173,7 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/kawsarrobinn/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-instagram"></i> Instagram
                 </a>

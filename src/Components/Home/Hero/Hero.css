@@ -25,6 +25,7 @@ body {
   filter: grayscale(30%);
   border-radius: 5px;
 }
+
 .personal-profile__name {
   font-size: 44px;
   line-height: 50px;

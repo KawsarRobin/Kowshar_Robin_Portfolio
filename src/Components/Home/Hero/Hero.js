@@ -118,7 +118,7 @@ const Hero = () => {
                     'An Enthusiastic ❤️',
                     'A Self Believer ❤️',
                   ]}
-                  loop={5}
+                  loop={10}
                   cursor
                   cursorStyle="_"
                   typeSpeed={50}
@@ -146,19 +146,32 @@ const Hero = () => {
               </dl>
             </div>
             <div className="personal-profile__social">
-              <a href="https://github.com/KawsarRobin" target="_blank">
+              <a
+                href="https://github.com/KawsarRobin"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa fa-github"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/kawsar-robin/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fa fa-linkedin-square"></i>
               </a>
-              <a href="https://www.facebook.com/KawsarRobinn/" target="_blank">
+              <a
+                href="https://www.facebook.com/KawsarRobinn/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fa fa-facebook-square"></i>
               </a>
-              <a href="https://www.instagram.com/kawsarrobinn/" target="_blank">
+              <a
+                href="https://www.instagram.com/kawsarrobinn/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
             </div>

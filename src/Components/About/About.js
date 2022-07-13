@@ -66,6 +66,7 @@ const About = () => {
           <a
             href={resume}
             target="_blank"
+            rel="noreferrer"
             className="section_btn site-btn"
             data-aos="zoom-in"
             data-aos-easing="linear"
